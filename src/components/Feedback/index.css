@@ -1,0 +1,37 @@
+/* Write your CSS code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 45px;
+  font-weight: 500;
+  font-family: Roboto;
+}
+
+.list-container {
+  list-style-type: none;
+  display: flex;
+}
+
+.image {
+  height: 50px;
+  margin-right: 25px;
+}
